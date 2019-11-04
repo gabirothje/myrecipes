@@ -1,0 +1,111 @@
+body,
+ul,
+li,
+a {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
+}
+
+body {
+  background:#E5E5E5;
+}
+.logo {
+  font-family: "Alegreya SC", serif;
+  font-weight: bold;
+  font-size: 3.43em;
+}
+
+a {
+  color: #730e29;
+}
+
+header {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 10px 20px;
+  align-items: center;
+  background: #fff;
+  font-size: 0.87em;
+  text-align: center;
+  border-bottom: solid 1px #919090;
+}
+
+nav{
+  align-content: flex-end; 
+  margin: 0px 0px 0px 800px; 
+  display: flex;
+  text-align: center;
+}
+
+.menu {
+  display: flex;
+  font-family: "Raleway", sans-serif;
+  font-weight: bold;
+  margin: 0 20px;
+  justify-content: flex-end; 
+  align-items: flex-end;
+}
+
+.menu a {
+  color: black;
+  text-align: center;
+}
+
+.menu li {
+  text-align: center;
+  margin-left: 10px;
+}
+
+.menu li a {
+  display: block;
+  padding: 10px;
+}
+
+img{
+  display: flex;
+}
+
+.principal {
+  display: flex;
+  margin-top: 40px;
+  margin-bottom: 110px;
+}
+
+.principal2 {
+  display: flex;
+  margin-top: 90px;
+  justify-content: center;
+}
+
+.principal2 div {
+  padding: 30px;
+  text-align: center;
+}
+
+
+.principal2 p {
+  font-family: "Raleway", sans-serif;
+}
+
+.destaques {
+  font-family: "Raleway", sans-serif;
+  text-align: center;
+ }
+
+ .principal3 {
+  display: flex;
+ background: tomato;
+ flex-wrap: wrap;
+ align-items: center; 
+ }
+
+ .principal3 section, section section {
+   display: flex;
+   flex-wrap: wrap;
+ }
+
+
+
+ 
